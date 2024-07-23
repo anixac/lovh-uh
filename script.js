@@ -98,7 +98,7 @@ no_button.addEventListener('click', () => {
 yes_button.addEventListener('click', () => {
     // change banner gif path
     let banner = document.getElementById('banner');
-    banner.src = "yes.gif";
+    banner.src = "1.gif";
     refreshBanner();
     // hide buttons div
     let buttons = document.getElementsByClassName('buttons')[0];
@@ -128,7 +128,7 @@ function changeLanguage() {
     } else if (language === "thai") {
         questionHeading.textContent = "คืนดีกับเราได้อ่ะป่าว?";
     } else {
-        questionHeading.textContent = "Will you be my valentine?";
+        questionHeading.textContent = "muah babyyyyyyy";
     }
 
     // Reset yes button text
@@ -148,6 +148,6 @@ function changeLanguage() {
     } else if (language === "thai") {
         successMessage.textContent = "ฮูเร่ คืนดีกันแล้วน้า :3";
     } else {
-        successMessage.textContent = "Yepppie, see you sooonnn :3";
+        successMessage.textContent = "yayyeee my darling  :3";
     }
 }
