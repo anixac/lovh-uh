@@ -1,20 +1,20 @@
 const answers_no = {
     english: [
         "No",
-        "Are you sure?",
-        "Are you really sure??",
-        "Are you really realy sure???",
-        "Think again?",
-        "Don't believe in second chances?",
-        "Why are you being so cold?",
-        "Maybe we can talk about it?",
-        "I am not going to ask again!",
-        "Ok now this is hurting my feelings!",
-        "You are now just being mean!",
-        "Why are you doing this to me?",
-        "Please give me a chance!",
-        "I am begging you to stop!",
-        "Ok, Let's just start over.."
+        "Are you sure? 😡",
+        "Are you really sure??🥺",
+        "Are you really🥺 realy sure???",
+        "Think 🤬again?",
+        "Don't believe in😑 second chances?",
+        "Why are you being so 😞 cold?",
+        "Maybe we can 💗🫴🏻talk about it?",
+        "I am not going to😡 ask again!",
+        "Ok now this is 🥺hurting my feelings!",
+        "You are now just 🙂being mean!",
+        "Why are you 😭doing this to me?",
+        "Please give 😭😭me a chance!",
+        "I am begging you 🥲🥲to stop!",
+        "shut up..? do it again 🤬☺️.."
    
     ],
     hindi: [
@@ -32,7 +32,7 @@ const answers_no = {
         "hui hui 🤭🤭😭😭",
         "lob y 😭😹🤭!",
         "teri toh 🤭😹",
-        "🤬🤬bahot hogaya  !"
+        "🤬🤬bahot hogaya firse chalu krr  !"
     ]
 };
 
@@ -108,9 +108,9 @@ function changeLanguage() {
     // Update question heading
     const questionHeading = document.getElementById("question-heading");
     if (language === "french") {
-        questionHeading.textContent = "hshshshsh?";
+        questionHeading.textContent = "huh??";
     } else if (language === "hindi") {
-        questionHeading.textContent = "lov uh?";
+        questionHeading.textContent = "do uh love me??";
     } else {
         questionHeading.textContent = "muah babyyyyyyy";
     }
