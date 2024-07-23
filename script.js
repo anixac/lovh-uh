@@ -17,7 +17,7 @@ const answers_no = {
         "Ok, Let's just start over.."
    
     ],
-    thai: [
+    hindi: [
         "pls baby",
         "kyun 🥺?",
         "mtt karo aisa 🥺?",
@@ -109,7 +109,7 @@ function changeLanguage() {
     const questionHeading = document.getElementById("question-heading");
     if (language === "french") {
         questionHeading.textContent = "hshshshsh?";
-    } else if (language === "thai") {
+    } else if (language === "hindi") {
         questionHeading.textContent = "lov uh?";
     } else {
         questionHeading.textContent = "muah babyyyyyyy";
@@ -129,7 +129,7 @@ function changeLanguage() {
     const successMessage = document.getElementById("success-message");
     if (language === "hindi") {
         successMessage.textContent = "baby";
-    } else if (language === "thai") {
+    } else if (language === "hindi") {
         successMessage.textContent = "baby";
     } else {
         successMessage.textContent = "yayyeee my darling  :3";
